@@ -5,7 +5,30 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
    <title>Gemini Clone</title>
    <script src="https://cdn.jsdelivr.net/npm/markdown-it/dist/markdown-it.min.js"></script>
+   <link rel="stylesheet" href="main.css">
+   <style>
 
+body {
+      background-color: #EFF2F9;
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .msg-container {
+      width: 80%;
+      max-width: 700px; /* Adjust max-width as needed */
+      padding: 20px;
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-left: 116px;
+    }
+  
+    
+   </style>
  </head>
  <body>
  <main>
@@ -14,10 +37,11 @@
      <div class="bot-msg"></div>
    </div>
  
-   <div class="user-input-div">
+   <!-- <div class="user-input-div"> -->
      <input type="text" placeholder="chat with our bot" class="user-input" style="display: none;" />
      <!-- <button class="btn">Search with Gemini</button> -->
-   </div>
+   <!-- </div> -->
+
  </main>
  <script type="importmap">
    {
@@ -68,7 +92,7 @@
        userInputData += data[dataType].map(item => Object.values(item).join(' ')).join(' ');
      });
  
-     userInput += `\nI want job suggestions based on\n${userInputData}`;
+     userInput += `\nI want job suggestions with and github project suggestions on \n${userInputData}`;
  
      let userMessageDisplayDiv = document.createElement('div');
      userMessageDisplayDiv.className = 'user-msg';

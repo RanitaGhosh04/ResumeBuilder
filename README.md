@@ -1,16 +1,19 @@
 1. This is homePage.From here you can start navigating to the other pages. Here some css animations are used for linear movement of images.
 ![image](https://github.com/RanitaGhosh04/ResumeBuilder/assets/82662107/f90e6eec-fb2e-426f-a675-3c5488693a7c)
 
+![image](https://github.com/RanitaGhosh04/ResumeBuilder/assets/82662107/afbc752b-a190-4368-bc62-5fa2b9fbe507)
 
-2. A createReusme button is present on the page. Clicking that button will result into a pop up alert to register into the website in order to create resume.
+
+
+3. A createReusme button is present on the page. Clicking that button will result into a pop up alert to register into the website in order to create resume.
 ![geekss2](https://github.com/RanitaGhosh04/ResumeBuilder/assets/82662107/8d4f03fb-5bac-449a-b22f-c79b253e0319)
 
 
-3. This is Login|SignUp page. Here a new user can register and existing user can login as the user information is stored in local storage.
+4. This is Login|SignUp page. Here a new user can register and existing user can login as the user information is stored in local storage.
 ![image](https://github.com/RanitaGhosh04/ResumeBuilder/assets/82662107/799cb5ac-fa46-4879-a882-c6652454b586)
 
 
-4. By clicking the createResume button you will be redirected to resume creation page.
+5. By clicking the createResume button you will be redirected to resume creation page.
 ![image](https://github.com/RanitaGhosh04/ResumeBuilder/assets/82662107/0fe5271d-36c3-4d1d-b6c0-6060d10b4318)
 
 
